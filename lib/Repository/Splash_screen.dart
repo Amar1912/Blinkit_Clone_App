@@ -28,7 +28,14 @@ class _SplashState extends State<Splash> {
       backgroundColor: Colors.amber,
       body: Center(
         child: Column(
-          
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Image.asset(
+              'assets/images/image1.png',
+              height: 150,
+              width: 150,
+            ),
+          ],
         ),
       ),
     );
